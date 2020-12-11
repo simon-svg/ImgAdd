@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Add</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/response.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="wrapper">
+            <div class="app__cont">
+                <div class="app__items"></div>
+            </div>
+        </div>
+        <div class="modal">
+            <form class="modal__form">
+                <div class="modal__title">
+                    <h3 class="modal__name">add user</h3>
+                </div>
+                <div class="modal__info">
+                    <input class="modal__inp modal__inp_name" type="name" placeholder="name">
+                    <textarea class="modal__inp modal__descr" type="textarea" placeholder="description"></textarea>
+                    <label class="modal__inp modal__btn">
+                        <input type="file" class="modal__upload">
+                        Upload Image
+                    </label>
+                    <div class="modal__info_img"></div>
+                    <button class="modal__inp modal__save">save</button>
+                </div>
+            </form>
+        </div>
+        <div class="aside">
+            <button class="aside__btn">+</button>
+        </div>
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
